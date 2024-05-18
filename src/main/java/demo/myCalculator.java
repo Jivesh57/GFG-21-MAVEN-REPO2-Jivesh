@@ -13,6 +13,9 @@ public class myCalculator {
          public int div(int a, int b) {
         	 return a/b;
          }	
+         public void show() {
+        	 System.out.println("Hello GFG"); 
+         }	
 	
 	public static void main(String[] args) {
 		myCalculator calc = new myCalculator();
@@ -20,6 +23,7 @@ public class myCalculator {
 		System.out.println("diff is :" +calc.diff(20, 10));
 		System.out.println("mul is :" +calc.mul(20, 10));
 		System.out.println("div is :" +calc.div(20, 10));
+        calc.show();
 
 	}
 
